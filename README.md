@@ -9,10 +9,10 @@ Hi! This is JM. We're having some revisions with keepr, so just watch.
 TODO:
 <ul>
   <li> Change Design of the Admin side </li>
-  <li> Clean some code </li>
+  <li> Clean code </li>
+  <li>Admin Side (Not really sure about this.)</li>
+  <li>Get those pictures.</li>
+  <li>XSS validation</li>
 </ul>
-a.) 
-b.) Clean some code
-c.) Admin Side (Not really sure about this.)
-d.) Get those pictures.
-e.) XSS validation
+<br>
+Still thinking if we should integrate angular with this one.
