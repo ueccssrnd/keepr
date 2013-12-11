@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html body{
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2, h3, p, #enter {
+	
+	font-family: 'bebasregular', 'Helvetica', 'Arial', sans-serif;
+
+}
+
+#left-title {
+	
+	background: #1e884a;
+	border-bottom: 5px solid #145831;
+	text-align: center;
+	color: white;
+}
+#title {
+	text-align: center;
+}
+
+#logo-wrapper {
+	
+	float:left;
+
+}
+#left-content {
+	
+	background-color: #2dcc70;
+	background-image: url('../../img/rnd-logo.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 0px 300%;
+	height: 100vh;
+	overflow:hidden;
+}
+
+#right-title {
+	background: #005454;
+	border-bottom: 5px solid #004443;
+	color: white;
+	text-align: center;
+}
+
+#right-content {
+	
+	background-color: #028482;
+	background-image: url('../../img/clock.png');
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	height: 100vh;
+	
+	
+}
+
+#input-wrapper {
+	display: table;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#input-wrapper h1 {
+	
+	color: #2a3c50;
+}
+
+#sn {
+	display: table;
+	width: 100%;
+	height: 10%;
+	font-family: 'Bebas', 'Helvetica', 'Arial', sans-serif;
+	color: #2a3c50;
+	font-size: 200%;
+}
+#enter-wrapper {
+	
+	width: 50%;
+	background: blue;
+	margin: 0px auto;
+}
+#enter {
+	display: table;
+	background: #2a3c50;
+	color: #fff;
+	border: none;
+	width: 100%;
+	height: 30%;
+	border-bottom: 5px solid #18212a;
+	margin: 0px auto;
+	font-size: 200%;
+	
+}
+
+#enter:active {
+	
+	border-bottom: none;
+	margin-top: 2%;
+
+}
+
+#enter:focus, #sn:focus {
+	
+	outline: 0;
+}
+
+#logo {
+	
+	position: relative;
+
+
+}
+
+#picbox-wrapper {
+	height: 25%;
+}
+
+#picbox {
+	position:relative;
+	top:15%;
+	width:100px;
+	margin:auto;
+	height:100px;
+	text-align:center;
+	border-radius:100px;
+	overflow: hidden;
+	border:3px solid white;
+}
+
+#picbox img{
+	margin:auto;
+	height:auto;
+	width:100px;
+	min-height: 100px;
+}
+#table-wrapper {
+	margin-top: 5%;
+}
+
+#member-info {
+	
+	background: #fff;
+
+}
+#table-wrapper table {
+	
+	width: 90%;
+	margin: 0px auto;
+	
+}
+#member-info td {
+	
+	/*padding: 5px;*/
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding:0;
+	margin: 0;
+	color: #005454;
+}
+
+#member-info h3 {
+	
+	font-weight: normal;
+	font-size: 140%;
+	padding: 0;
+	margin: 3;
+
+}
+#left-title img{
+	display:inline;
+	width:15%;
+	float:left;
+	height:auto;
+}
+#sn{
+	text-align:center;
+	border:none;
+}
