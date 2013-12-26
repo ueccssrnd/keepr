@@ -14,12 +14,8 @@
 				<br/><br/>
 					<div id="enter-wrapper">
 						<input type="button" value="Enter" id="enter"/>
-						
 					</div>
-					
 				</div>
-				
-				
 			</div>
 		</div>
 		
@@ -33,7 +29,7 @@
 				<div class="pure-u-1" id="picbox-wrapper">
 					
 					<div class="pure-u-1-10" id="picbox">
-						<img src="uploads/chi.jpg">
+						<!--Dito sya lalabas-->
 					</div>
 					
 				</div>				
@@ -42,20 +38,15 @@
 						<tbody>
 							<tr>
 								<td id = "student-number"><h3>Student Number</h3></td>
-							</tr>
-							
+							</tr>	
 							<tr>
 								<td id = "name"><h3>Name</h3></td>
 							</tr>
-							
 							<tr>
 								<td id = "division"><h3>Division</h3></td>
 							</tr>
 							<tr>
-								<td id = "course"><h3>Course</h3></td>
-							</tr>
-							<tr>
-								<td id = "year-level"><h3>Year Level</h3></td>
+								<td id = "status"><h3>Status</h3></td>
 							</tr>
 						</tbody>
 				</table>

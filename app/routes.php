@@ -22,4 +22,4 @@ Route::get('register',function(){
 	return View::make('register');
 });
 Route::post('register/adduser', array('uses' => 'RegisterController@register'));
-Route::post('timeIn',array('uses' => 'AjaxController@doLogin'));
+Route::post('timein',array('uses' => 'AjaxController@doLogin'));

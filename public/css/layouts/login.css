@@ -60,7 +60,7 @@ h1, h2, h3, p, #enter {
 	background-color: #028482;
 	background-image: url('../../img/clock.png');
 	background-repeat: no-repeat;
-	background-position: 50% 20%;
+	background-position: 50vh 20vh;
 	height: 100vh;
 	
 	
@@ -75,7 +75,6 @@ h1, h2, h3, p, #enter {
 }
 
 #input-wrapper h1 {
-	
 	color: #2a3c50;
 }
 
@@ -119,10 +118,7 @@ h1, h2, h3, p, #enter {
 }
 
 #logo {
-	
 	position: relative;
-
-
 }
 
 #picbox-wrapper {
@@ -157,7 +153,7 @@ h1, h2, h3, p, #enter {
 
 }
 #table-wrapper table {
-	
+	font-size:90%;
 	width: 90%;
 	margin: 0px auto;
 	
@@ -178,15 +174,18 @@ h1, h2, h3, p, #enter {
 	font-size: 140%;
 	padding: 0;
 	margin: 3;
-
 }
 #left-title img{
 	display:inline;
-	width:15%;
+	width:80px;
 	float:left;
 	height:auto;
 }
 #sn{
 	text-align:center;
 	border:none;
+}
+.notifyjs-container{
+	font-family:Segoe UI, Arial, sans-serif;
+	font-size:12px;
 }

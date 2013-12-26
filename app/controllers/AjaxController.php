@@ -17,9 +17,8 @@ class AjaxController extends BaseController{
 			$current_date = date('Y-m-d');
 			$current_time = date('H:i:s');
 			DB::insert("INSERT INTO time(user_id,login_date,status) VALUES(" . $user->id . ",NOW()," . $user->status . ")");
-			$return_value = array('first_name' => $user->first_name, 'last_name' => $user->last_name, 'status' => $user->status);
-			echo json_encode($return_value);
+			$student = array('student_number' => $user->student_number,'first_name' => $user->first_name, 'last_name' => $user->last_name, 'status' => $user->status, 'division' => $user->division);
+			echo json_encode($student);
 		}
-		
 	}
 }
